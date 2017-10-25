@@ -81,6 +81,37 @@ input {
     height: 5%;
 }
 
+.toolbar .divgmail {
+    height:100%;
+    width:10.5%;
+}
+
+.toolbar .display {
+    display: flex;
+    float: left;
+}
+
+
+.toolbar .sqdiv {
+    border: 1;
+    height: 80%;
+    width: 4%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin-right: 1%;
+}
+
+.toolbar div .sqicon {
+    align-self:center;
+}
+
+.toolbar div .gmail {
+    align-self: center;
+    margin-left: 15%;
+    font-size: 130%;
+}
+
 .toolbar .dropbtn {
     background: url(gmail.png) no-repeat;
     background-size: 70% 50%;
